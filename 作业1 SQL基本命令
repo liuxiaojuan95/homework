@@ -1,8 +1,8 @@
 ## 一、介绍对数据库操作相关的命令
 ## 1.创建数据库
-## 命令：
-```
-sql>create database new_student3;
+**命令：**
+```sql
+    create database new_student3;
 ```
 
 结果：
