@@ -104,14 +104,96 @@
 #### 5.增加字段和删除字段
 ##### 1）在表的最后面增加字段
 
+**命令**
+```sql
+     desc table tsc1;
+     alter table tsc1
+         add addr varchar(45);
+     desc table tsc1;
+```
+
+**结果**
+
 
 ##### 2）在表的最前面增加字段
+
+**命令**
+```sql
+     desc table tsc1;
+     alter table tsc1
+         add tel varchar(45) first;
+     desc table tsc1;
+```
+ 
+ **结果**
+ 
+ 
 ##### 3）在表指定字段后增加字段
+
+**命令**
+```sql
+     desc table tsc1;
+     alter table tsc1
+         add loc varchar(40) 
+	      after tel varchar(45);
+     desc table tsc1;
+```
+
+**结果**
+
+
 ##### 4）删除字段
+
+**命令**
+```sql
+   desc table tsc1;   
+      alter table tsc1
+         drop loc varchar(40) ;
+   desc table tsc1;
+```
+
+**结果**
+
+
 #### 6.修改字段
 ##### 1）修改字段的数据类型
+
+**命令**
+```sql
+    desc table tsc1;
+    alter table tsc1
+       modify tel int;
+    desc table tsc1;
+```
+
+**结果**
+
+
 ##### 2）同时修改字段的名字和数据类型
+
+**命令**
+```sql
+    desc table tsc1;
+    alter table tsc1
+      change tel Tel varchar(40);
+    desc table tsc1;
+```
+
+**结果**
+
+
 ##### 3）修改字段的顺序
+
+**命令**
+```sql
+     desc table tsc1;
+     alter table tsc1
+         modify id int(11) after name VARCHAR(45);
+```
+
+**结果**
+
+
 ### 四、操作表的约束
 ### 五、数据的操作
 #### 1.插入数据记录
