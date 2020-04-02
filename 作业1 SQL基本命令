@@ -1,7 +1,5 @@
-## 一、介绍对数据库操作相关的命令
-### 1.创建数据库
-**命令：**
+
 ```SQL
-	CREATE DATABASE biu1;  
+	CREATE DATABASE biu1;   # biu1为数据库名称
 ```
 
