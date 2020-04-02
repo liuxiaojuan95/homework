@@ -33,14 +33,78 @@
 
 ### 二、如何查看MySQL数据库中的存储引擎
 #### 1.查看所支持的存储引擎
+
+**命令**
+```sql
+       show engines;
+```
+
+**结果**
+
+
 #### 2.查看默认的存储引擎
+
+**命令**
+```sql
+      show variables like '%storage_engine%';
+```
+
+**结果**
+
+
 ### 三、介绍对表操作的相关命令
 #### 1.在数据库中创建一个新的表
+
+**命令**
+```sql
+     use database student_3;
+     create table tsc（
+     id int(11),
+     name VARCHAR(45),
+     brith DATETIME
+     );
+```
+
+**结果**
+
+
 #### 2.查看表的定义信息
+
+**命令**
+```sql
+     describe table tsc;
+     show create table tsc;
+```
+
+**结果**
+
+
 #### 3.删除表
+
+**命令**
+```sql
+      drop table tsc;
+      describe table tsc;
+```
+
+**结果**
+
+
 #### 4.修改表名
+
+**命令**
+```sql
+      alter table tsc rename tsc1;
+      show tables from student_3;
+```
+
+**结果**
+
+
 #### 5.增加字段和删除字段
 ##### 1）在表的最后面增加字段
+
+
 ##### 2）在表的最前面增加字段
 ##### 3）在表指定字段后增加字段
 ##### 4）删除字段
