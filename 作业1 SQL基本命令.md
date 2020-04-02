@@ -189,6 +189,7 @@
      desc table tsc1;
      alter table tsc1
          modify id int(11) after name VARCHAR(45);
+     desc table tsc1;
 ```
 
 **结果**
