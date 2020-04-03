@@ -196,7 +196,53 @@
 
 
 ### 四、操作表的约束
+
+**命令**
+```sql
+      create table tsc2(
+ 	deptno int not null,  # 设置非空约束(NOT NULL,NK)
+	name VARCHAR(20) default 'Petter', # 设置字段的默认值(DEFAULT)
+	xname VARCHAR(20) unique,	#设置委员约束（UNIQUE,UK）
+	loc VARCHAR(40)， 
+	number int primary key auto_increment	#设置字段自动增加
+	); 
+```
+
+**结果**
+
+
 ### 五、数据的操作
 #### 1.插入数据记录
+
+**命令**
+```sql
+      desc table tsc1;
+      insert into tsc1(       )
+                  vales(      );
+      insert into tsc1(       )
+                  vales(      );
+select * from table tsc1;
+```
+
+**结果**
+
+
 #### 2.同时插入多条数据记录
+
+**命令**
+```sql
+      insert into tsc1(       )
+                  vales(      ),
+		       (      ),
+		       (      );
+      select * from table tsc1;
+```
+
+**结果**
+
+
 #### 3.将一个表的记录插入另一个表中
+
+**命令**
+```sql
+      
