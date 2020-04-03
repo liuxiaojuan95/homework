@@ -58,7 +58,7 @@
 **命令**
 ```sql
      use database student_3;
-     create table tsc（
+     create table tsc(
      id int(11),
      name VARCHAR(45),
      brith DATETIME
@@ -72,7 +72,7 @@
 
 **命令**
 ```sql
-     describe table tsc;
+     describe tsc;
      show create table tsc;
 ```
 
