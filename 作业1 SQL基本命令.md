@@ -25,7 +25,7 @@
 
 **命令**
 ```sql
-      drop database student_3;
+      drop student_3;
 ```
 
 **结果**
@@ -57,7 +57,7 @@
 
 **命令**
 ```sql
-     use database student_3;
+     use student_3;
      create table tsc(
      id int(11),
      name VARCHAR(45),
@@ -84,7 +84,7 @@
 **命令**
 ```sql
       drop table tsc;
-      describe table tsc;
+      describe tsc;
 ```
 
 **结果**
@@ -106,10 +106,10 @@
 
 **命令**
 ```sql
-     desc table tsc1;
+     desc tsc1;
      alter table tsc1
          add addr varchar(45);
-     desc table tsc1;
+     desc tsc1;
 ```
 
 **结果**
@@ -119,10 +119,10 @@
 
 **命令**
 ```sql
-     desc table tsc1;
+     desc tsc1;
      alter table tsc1
          add tel varchar(45) first;
-     desc table tsc1;
+     desc tsc1;
 ```
  
  **结果**
@@ -132,11 +132,11 @@
 
 **命令**
 ```sql
-     desc table tsc1;
+     desc  tsc1;
      alter table tsc1
          add loc varchar(40) 
 	      after tel varchar(45);
-     desc table tsc1;
+     desc tsc1;
 ```
 
 **结果**
@@ -146,10 +146,10 @@
 
 **命令**
 ```sql
-   desc table tsc1;   
+   desc  tsc1;   
       alter table tsc1
          drop loc varchar(40) ;
-   desc table tsc1;
+   desc  tsc1;
 ```
 
 **结果**
@@ -160,7 +160,7 @@
 
 **命令**
 ```sql
-    desc table tsc1;
+    desc  tsc1;
     alter table tsc1
        modify tel int;
     desc table tsc1;
@@ -173,10 +173,10 @@
 
 **命令**
 ```sql
-    desc table tsc1;
+    desc  tsc1;
     alter table tsc1
       change tel Tel varchar(40);
-    desc table tsc1;
+    desc  tsc1;
 ```
 
 **结果**
@@ -186,10 +186,10 @@
 
 **命令**
 ```sql
-     desc table tsc1;
+     desc  tsc1;
      alter table tsc1
          modify id int(11) after name VARCHAR(45);
-     desc table tsc1;
+     desc  tsc1;
 ```
 
 **结果**
@@ -216,7 +216,7 @@
 
 **命令**
 ```sql
-      desc table tsc1;
+      desc  tsc1;
       insert into tsc1(       )
                   vales(      );
       insert into tsc1(       )
