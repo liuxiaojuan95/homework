@@ -15,7 +15,7 @@
 **命令**
 ```sql
        show databases;
-       use database student_3;
+       use student_3;
 ```
 
 **结果**
