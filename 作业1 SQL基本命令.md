@@ -246,6 +246,14 @@ select * from table tsc1;
       brith datetime,
       addr varchar(45)
       );
+      desc tsc3;
+      insert into tsc3(tel,name,id,brith,addr)
+      values(54324,'wangxiao',04,0905,'henan');
+      select * from tsc3;
+      insert into tsc1(Tel,name,id,brith,addr)
+      select tel,name,id,brith,addr
+      from tsc3;
+      select * from tsc1;
  ```
  
  **结果**
