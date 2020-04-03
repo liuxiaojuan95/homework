@@ -135,7 +135,7 @@
      desc  tsc1;
      alter table tsc1
          add loc varchar(40) 
-	      after tel varchar(45);
+	      after tel;
      desc tsc1;
 ```
 
@@ -148,7 +148,7 @@
 ```sql
    desc  tsc1;   
       alter table tsc1
-         drop loc varchar(40) ;
+         drop loc varchar(40);
    desc  tsc1;
 ```
 
@@ -163,7 +163,7 @@
     desc  tsc1;
     alter table tsc1
        modify tel int;
-    desc table tsc1;
+    desc tsc1;
 ```
 
 **结果**
@@ -188,7 +188,7 @@
 ```sql
      desc  tsc1;
      alter table tsc1
-         modify id int(11) after name VARCHAR(45);
+         modify id int(11) after name;
      desc  tsc1;
 ```
 
@@ -201,10 +201,7 @@
 ```sql
       create table tsc2(
  	deptno int not null,  # 设置非空约束(NOT NULL,NK)
-	name VARCHAR(20) default 'Petter', # 设置字段的默认值(DEFAULT)
-	xname VARCHAR(20) unique,	#设置委员约束（UNIQUE,UK）
-	loc VARCHAR(40)， 
-	number int primary key auto_increment	#设置字段自动增加
+	dname VARCHAR(20) default 'Petter', # 设置字段的默认值(DEFAULT)
 	); 
 ```
 
@@ -217,10 +214,8 @@
 **命令**
 ```sql
       desc  tsc1;
-      insert into tsc1(       )
-                  vales(      );
-      insert into tsc1(       )
-                  vales(      );
+      insert into tsc1(Tel,name,id,brith,addr)
+                  values(54321,'xingxing',01,0213,'hunan');
 select * from table tsc1;
 ```
 
@@ -231,10 +226,9 @@ select * from table tsc1;
 
 **命令**
 ```sql
-      insert into tsc1(       )
-                  vales(      ),
-		       (      ),
-		       (      );
+      insert into tsc1(Tel,name,id brith,addr)
+                 values(54322,'zhanzhan',02,0805,'henan'),
+		       (54323,'bobo',03,1006,'chongqing');
       select * from table tsc1;
 ```
 
@@ -245,4 +239,15 @@ select * from table tsc1;
 
 **命令**
 ```sql
-      
+      create table tsc3(
+      tel varchar(40),
+      name varchar(45),
+      id int(11),
+      brith datetime,
+      addr varchar(45)
+      );
+ ```
+ 
+ **结果**
+ 
+ 
