@@ -39,3 +39,6 @@ on t2. mgr= t3.empno;
 ```
 
 **结果**
+![](https://github.com/liuxiaojuan95/homework/blob/master/images/2.2.png)
+![](https://github.com/liuxiaojuan95/homework/blob/master/images/2.2x.png)
+![](https://github.com/liuxiaojuan95/homework/blob/master/images/2.3.png)
