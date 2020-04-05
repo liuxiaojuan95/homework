@@ -8,7 +8,7 @@
 ```
 
 **结果**
-
+![1](https://github.com/liuxiaojuan95/homework/blob/master/images/1.1.png)
 
 #### 2.查看和选择数据库
 
