@@ -29,7 +29,7 @@
 ```
 
 **结果**
-
+![](https://github.com/liuxiaojuan95/homework/blob/master/images/1.3.png)
 
 ### 二、如何查看MySQL数据库中的存储引擎
 #### 1.查看所支持的存储引擎
@@ -83,12 +83,13 @@
 
 **命令**
 ```sql
-      drop table tsc;
-      describe tsc;
+      show tables from student_2;
+      drop table tbsc;
+      show tables from student_2;
 ```
 
 **结果**
-
+![]()
 
 #### 4.修改表名
 
