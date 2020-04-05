@@ -89,7 +89,7 @@
 ```
 
 **结果**
-![]()
+![](https://github.com/liuxiaojuan95/homework/blob/master/images/1.15.png)
 
 #### 4.修改表名
 
