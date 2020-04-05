@@ -77,7 +77,7 @@
 ```
 
 **结果**
-
+![](https://github.com/liuxiaojuan95/homework/blob/master/images/1.7.png)
 
 #### 3.删除表
 
@@ -99,7 +99,7 @@
 ```
 
 **结果**
-
+![](https://github.com/liuxiaojuan95/homework/blob/master/images/1.9.png)
 
 #### 5.增加字段和删除字段
 ##### 1）在表的最后面增加字段
@@ -113,7 +113,7 @@
 ```
 
 **结果**
-
+![](https://github.com/liuxiaojuan95/homework/blob/master/images/1.10.png)
 
 ##### 2）在表的最前面增加字段
 
@@ -126,7 +126,7 @@
 ```
  
  **结果**
- 
+![](https://github.com/liuxiaojuan95/homework/blob/master/images/1.11.png) 
  
 ##### 3）在表指定字段后增加字段
 
@@ -140,7 +140,7 @@
 ```
 
 **结果**
-
+![](https://github.com/liuxiaojuan95/homework/blob/master/images/1.12.png)
 
 ##### 4）删除字段
 
@@ -153,7 +153,7 @@
 ```
 
 **结果**
-
+![](https://github.com/liuxiaojuan95/homework/blob/master/images/1.13.png)
 
 #### 6.修改字段
 ##### 1）修改字段的数据类型
@@ -167,7 +167,7 @@
 ```
 
 **结果**
-
+![](https://github.com/liuxiaojuan95/homework/blob/master/images/1.14.png)
 
 ##### 2）同时修改字段的名字和数据类型
 
@@ -180,7 +180,7 @@
 ```
 
 **结果**
-
+![](https://github.com/liuxiaojuan95/homework/blob/master/images/1.16.png)
 
 ##### 3）修改字段的顺序
 
@@ -193,7 +193,7 @@
 ```
 
 **结果**
-
+![](https://github.com/liuxiaojuan95/homework/blob/master/images/1.17.png)
 
 ### 四、操作表的约束
 
@@ -206,7 +206,7 @@
 ```
 
 **结果**
-
+![](https://github.com/liuxiaojuan95/homework/blob/master/images/1.18.png)
 
 ### 五、数据的操作
 #### 1.插入数据记录
@@ -220,7 +220,7 @@ select * from table tsc1;
 ```
 
 **结果**
-
+![](https://github.com/liuxiaojuan95/homework/blob/master/images/1.19.png)
 
 #### 2.同时插入多条数据记录
 
@@ -233,7 +233,7 @@ select * from table tsc1;
 ```
 
 **结果**
-
+![](https://github.com/liuxiaojuan95/homework/blob/master/images/1.20.png)
 
 #### 3.将一个表的记录插入另一个表中
 
@@ -257,5 +257,6 @@ select * from table tsc1;
  ```
  
  **结果**
- 
- 
+![](https://github.com/liuxiaojuan95/homework/blob/master/images/1.21.1.png) 
+![](https://github.com/liuxiaojuan95/homework/blob/master/images/1.21.2.png)
+![](https://github.com/liuxiaojuan95/homework/blob/master/images/1.21.3.png)
