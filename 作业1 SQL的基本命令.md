@@ -19,7 +19,7 @@
 ```
 
 **结果**
-
+![2](https://github.com/liuxiaojuan95/homework/blob/master/images/1.2.png)
 
 #### 3.删除数据库
 
@@ -40,7 +40,7 @@
 ```
 
 **结果**
-
+![3](https://github.com/liuxiaojuan95/homework/blob/master/images/1.4.png)
 
 #### 2.查看默认的存储引擎
 
@@ -50,7 +50,7 @@
 ```
 
 **结果**
-
+![4](https://github.com/liuxiaojuan95/homework/blob/master/images/1.5.png)
 
 ### 三、介绍对表操作的相关命令
 #### 1.在数据库中创建一个新的表
@@ -66,7 +66,7 @@
 ```
 
 **结果**
-
+![](https://github.com/liuxiaojuan95/homework/blob/master/images/1.6.png)
 
 #### 2.查看表的定义信息
 
