@@ -8,6 +8,8 @@
 ```
 
 **结果**
+
+
 ![1](https://github.com/liuxiaojuan95/homework/blob/master/images/1.1.png)
 
 #### 2.查看和选择数据库
@@ -19,7 +21,9 @@
 ```
 
 **结果**
-![2](https://github.com/liuxiaojuan95/homework/blob/master/images/1.2.png)
+
+
+](https://github.com/liuxiaojuan95/homework/blob/master/images/1.2.png)
 
 #### 3.删除数据库
 
@@ -29,6 +33,8 @@
 ```
 
 **结果**
+
+
 ![](https://github.com/liuxiaojuan95/homework/blob/master/images/1.3.png)
 
 ### 二、如何查看MySQL数据库中的存储引擎
@@ -40,6 +46,8 @@
 ```
 
 **结果**
+
+
 ![3](https://github.com/liuxiaojuan95/homework/blob/master/images/1.4.png)
 
 #### 2.查看默认的存储引擎
@@ -50,6 +58,8 @@
 ```
 
 **结果**
+
+
 ![4](https://github.com/liuxiaojuan95/homework/blob/master/images/1.5.png)
 
 ### 三、介绍对表操作的相关命令
@@ -66,6 +76,8 @@
 ```
 
 **结果**
+
+
 ![](https://github.com/liuxiaojuan95/homework/blob/master/images/1.6.png)
 
 #### 2.查看表的定义信息
@@ -77,6 +89,8 @@
 ```
 
 **结果**
+
+
 ![](https://github.com/liuxiaojuan95/homework/blob/master/images/1.7.png)
 
 #### 3.删除表
@@ -89,6 +103,8 @@
 ```
 
 **结果**
+
+
 ![](https://github.com/liuxiaojuan95/homework/blob/master/images/1.15.png)
 
 #### 4.修改表名
@@ -100,6 +116,8 @@
 ```
 
 **结果**
+
+
 ![](https://github.com/liuxiaojuan95/homework/blob/master/images/1.9.png)
 
 #### 5.增加字段和删除字段
@@ -114,6 +132,8 @@
 ```
 
 **结果**
+
+
 ![](https://github.com/liuxiaojuan95/homework/blob/master/images/1.10.png)
 
 ##### 2）在表的最前面增加字段
@@ -127,6 +147,8 @@
 ```
  
  **结果**
+
+
 ![](https://github.com/liuxiaojuan95/homework/blob/master/images/1.11.png) 
  
 ##### 3）在表指定字段后增加字段
@@ -141,6 +163,8 @@
 ```
 
 **结果**
+
+
 ![](https://github.com/liuxiaojuan95/homework/blob/master/images/1.12.png)
 
 ##### 4）删除字段
@@ -154,6 +178,8 @@
 ```
 
 **结果**
+
+
 ![](https://github.com/liuxiaojuan95/homework/blob/master/images/1.13.png)
 
 #### 6.修改字段
@@ -168,6 +194,8 @@
 ```
 
 **结果**
+
+
 ![](https://github.com/liuxiaojuan95/homework/blob/master/images/1.14.png)
 
 ##### 2）同时修改字段的名字和数据类型
@@ -181,6 +209,8 @@
 ```
 
 **结果**
+
+
 ![](https://github.com/liuxiaojuan95/homework/blob/master/images/1.16.png)
 
 ##### 3）修改字段的顺序
@@ -194,6 +224,8 @@
 ```
 
 **结果**
+
+
 ![](https://github.com/liuxiaojuan95/homework/blob/master/images/1.17.png)
 
 ### 四、操作表的约束
@@ -207,6 +239,8 @@
 ```
 
 **结果**
+
+
 ![](https://github.com/liuxiaojuan95/homework/blob/master/images/1.18.png)
 
 ### 五、数据的操作
@@ -221,6 +255,8 @@ select * from table tsc1;
 ```
 
 **结果**
+
+
 ![](https://github.com/liuxiaojuan95/homework/blob/master/images/1.19.png)
 
 #### 2.同时插入多条数据记录
@@ -234,6 +270,8 @@ select * from table tsc1;
 ```
 
 **结果**
+
+
 ![](https://github.com/liuxiaojuan95/homework/blob/master/images/1.20.png)
 
 #### 3.将一个表的记录插入另一个表中
@@ -258,6 +296,10 @@ select * from table tsc1;
  ```
  
  **结果**
+
+
 ![](https://github.com/liuxiaojuan95/homework/blob/master/images/1.21.1.png) 
+
 ![](https://github.com/liuxiaojuan95/homework/blob/master/images/1.21.2.png)
+
 ![](https://github.com/liuxiaojuan95/homework/blob/master/images/1.21.3.png)
